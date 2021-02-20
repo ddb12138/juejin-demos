@@ -1,5 +1,4 @@
-
-import java.math.BigDecimal;
+package reflection;
 
 
 public class Person {
@@ -60,7 +59,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "reflection.Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", money=" + money +
